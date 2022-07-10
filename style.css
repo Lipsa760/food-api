@@ -1,0 +1,22 @@
+#foodContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid gray;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 100px 10% 0 10%;
+    grid-gap: 1%;
+  }
+  
+  #foodContainer div {
+    border: 1px solid rgb(128, 128, 128);
+    background-color: rgb(209, 210, 210);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #foodContainer #image {
+    height: 70px;
+  }
